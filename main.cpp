@@ -42,6 +42,44 @@ public:
         }
         cout << ")\n";
     }
+
+    bool FindValue (LinkedList* list, int value) {
+        if (list == NULL)
+            return false;
+        Node* node = list -> head;
+        while (node != NULL) {
+            if (node -> data == value)
+                return true;
+            node = node -> next;
+        }
+        return false;
+    }
+
+    void DeleteLast(LinkedList* list) {
+        if (list == NULL)
+            return;
+
+        // Check to make sure that there are at least two elements in the list
+        if (list -> head != NULL && list -> head -> next != NULL) {
+            // When this loop finishes, newLast will point to the node
+            // that will be second-last in the list.
+            Node* newLast = list -> head;
+            while (newLast -> next -> next != NULL) {
+                newLast = newLast -> next;
+            }
+            delete newLast -> next;
+            newLast -> next = NULL;
+
+        // If there is only 1 Node in the list, we just have to delete that node,
+        // and set head to NULL
+        } else if (list -> head != NULL) {
+            delete list -> head;
+            list -> head = NULL;
+        }
+
+        // The only remaining case is that the list was empty
+        // to begin with, in which case we should do nothing
+    }
 };
 
 int main() {
@@ -53,5 +91,13 @@ int main() {
     newerNode -> data = int(25);
     list-> InsertNode(list, newerNode);
     list -> PrintList(list);
+    string val_found = (list -> FindValue(list, 25)) ? "true" : "false";
+    cout << "Value 25 found in list: " << val_found << endl;
+    cout << "Deleting last node" << endl;
+    list -> DeleteLast(list);
+    val_found = (list -> FindValue(list, 25)) ? "true" : "false";
+    list -> PrintList(list);
+    cout << "Value 25 found in list: " << val_found << endl;
+
     return 0;
 }
