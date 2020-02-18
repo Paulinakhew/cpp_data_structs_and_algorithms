@@ -3,4 +3,4 @@ project(cpp_linked_lists)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(cpp_linked_lists main.cpp)
+add_executable(cpp_linked_lists main.cpp linked_lists.hpp)

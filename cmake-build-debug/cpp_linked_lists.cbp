@@ -80,6 +80,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/paulinakhew/Desktop/cpp_linked_list_cheat_sheet/linked_lists.hpp">
+			<Option target="cpp_linked_lists"/>
+		</Unit>
 		<Unit filename="/Users/paulinakhew/Desktop/cpp_linked_list_cheat_sheet/main.cpp">
 			<Option target="cpp_linked_lists"/>
 		</Unit>

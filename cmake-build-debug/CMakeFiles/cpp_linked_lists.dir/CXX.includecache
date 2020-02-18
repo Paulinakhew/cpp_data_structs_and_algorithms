@@ -6,7 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Users/paulinakhew/Desktop/cpp_linked_list_cheat_sheet/main.cpp
+/Users/paulinakhew/Desktop/cpp_linked_list_cheat_sheet/linked_lists.hpp
 iostream
 -
+
+/Users/paulinakhew/Desktop/cpp_linked_list_cheat_sheet/main.cpp
+linked_lists.hpp
+/Users/paulinakhew/Desktop/cpp_linked_list_cheat_sheet/linked_lists.hpp
 
