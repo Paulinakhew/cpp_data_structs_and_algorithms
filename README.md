@@ -1,1 +1,3 @@
-# cpp_linked_list_cheat_sheet
+# C++ Data Structures and Algorithms
+- [Linked lists](main.cpp)
+- [Recursive functions](recursive_functions.cpp)
