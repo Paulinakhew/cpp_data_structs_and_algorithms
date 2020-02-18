@@ -3,4 +3,8 @@
 
 CMakeFiles/cpp_linked_lists.dir/main.cpp.o: ../linked_lists.hpp
 CMakeFiles/cpp_linked_lists.dir/main.cpp.o: ../main.cpp
+CMakeFiles/cpp_linked_lists.dir/main.cpp.o: ../recursive_functions.hpp
+
+CMakeFiles/cpp_linked_lists.dir/recursive_functions.cpp.o: ../recursive_functions.cpp
+CMakeFiles/cpp_linked_lists.dir/recursive_functions.cpp.o: ../recursive_functions.hpp
 

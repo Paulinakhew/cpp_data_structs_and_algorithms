@@ -1,4 +1,5 @@
 #include "linked_lists.hpp"
+#include "recursive_functions.hpp"
 
 void LinkedList::InsertNode(LinkedList* list, struct Node* newNode) {
     // If the list is empty, create a new head node
@@ -88,6 +89,22 @@ int main() {
     val_found = (list -> FindValue(list, 25)) ? "true" : "false";
     list -> PrintList(list);
     cout << "Value 25 found in list: " << val_found << endl;
+
+    cout << endl << endl << endl;
+    cout << factorial(3) << endl;
+    cout << ascii2int("16235") << endl;
+    cout << int2ascii(1234567) << endl;
+    cout << bin2dec("10010") << endl;
+    cout << dec2bin(12) << endl;
+    print_reverse_int(12345);
+    cout << endl << compute_sum_of_series(5);
+    print_series_of_squares(5);
+    cout << check_valid_palindrome("asdf");
+    cout << is_prime_number(11);
+    print_individual_digits(12412);
+    cout << convert_dec_to_binary(15) << endl;
+    cout << convert_binary_to_dec(1010) << endl;
+    cout << largest_int_divisor(20);
 
     return 0;
 }
