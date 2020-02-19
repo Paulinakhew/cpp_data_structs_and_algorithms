@@ -1,77 +1,6 @@
 #include "linked_lists.hpp"
 #include "recursive_functions.hpp"
 
-void LinkedList::InsertNode(LinkedList* list, struct Node* newNode) {
-    // If the list is empty, create a new head node
-    if (list->head == NULL){
-        list -> head = newNode;
-        newNode -> next = NULL;
-    }
-    // If the list is not empty, start at the head
-    // and follow the links until you find the end of the list
-    else {
-        Node * end = list -> head;
-        while (end -> next != NULL) {
-            end = end -> next;
-        }
-
-        // Then, set the end of the list to point to the new node
-        end -> next = newNode;
-        newNode -> next = NULL;
-    }
-}
-
-void LinkedList::PrintList(LinkedList* list) {
-    if (list == NULL)
-        return;
-    cout << "(";
-    Node* node = list -> head;
-    while (node != NULL) {
-        cout << "[" << node -> data << "]";
-        node = node -> next;
-        if (node != NULL)
-            cout << "->";
-    }
-    cout << ")\n";
-}
-
-bool LinkedList::FindValue (LinkedList* list, int value) {
-    if (list == NULL)
-        return false;
-    Node* node = list -> head;
-    while (node != NULL) {
-        if (node -> data == value)
-            return true;
-        node = node -> next;
-    }
-    return false;
-}
-
-void LinkedList::DeleteLast(LinkedList* list) {
-    if (list == NULL)
-        return;
-
-    // Check to make sure that there are at least two elements in the list
-    if (list -> head != NULL && list -> head -> next != NULL) {
-        // When this loop finishes, newLast will point to the node
-        // that will be second-last in the list.
-        Node* newLast = list -> head;
-        while (newLast -> next -> next != NULL) {
-            newLast = newLast -> next;
-        }
-        delete newLast -> next;
-        newLast -> next = NULL;
-
-    // If there is only 1 Node in the list, we just have to delete that node,
-    // and set head to NULL
-    } else if (list -> head != NULL) {
-        delete list -> head;
-        list -> head = NULL;
-    }
-
-    // The only remaining case is that the list was empty
-    // to begin with, in which case we should do nothing
-}
 
 int main() {
     LinkedList* list;
@@ -90,21 +19,32 @@ int main() {
     list -> PrintList(list);
     cout << "Value 25 found in list: " << val_found << endl;
 
-    cout << endl << endl << endl;
-    cout << factorial(3) << endl;
-    cout << ascii2int("16235") << endl;
-    cout << int2ascii(1234567) << endl;
-    cout << bin2dec("10010") << endl;
-    cout << dec2bin(12) << endl;
+    cout << endl << endl << endl << "Start of recursive functions" << endl;
+    cout << "The factorial of 4 is " << factorial(4) << endl;
+    cout << "The result of converting the string '16235' into an integer is " << ascii2int("16235") << endl;
+    cout << "The result of converting the integer 1234567 to a string is '" << int2ascii(1234567) << "'" << endl;
+    cout << "Converting the string '10010' into decimal results in " << bin2dec("10010") << endl;
+    cout << "Converting the integer 12 into a binary string results in '" << dec2bin(12) << "'" << endl;
+    cout << "Printing 12345 in reverse: ";
     print_reverse_int(12345);
-    cout << endl << compute_sum_of_series(5);
+    cout << endl;
+    cout << "Computing the sum of integers until 5: " << compute_sum_of_series(5) << endl;
+    cout << "Printing the series of squares until 5: " << endl;
     print_series_of_squares(5);
-    cout << check_valid_palindrome("asdf");
-    cout << is_prime_number(11);
-    print_individual_digits(12412);
-    cout << convert_dec_to_binary(15) << endl;
-    cout << convert_binary_to_dec(1010) << endl;
-    cout << largest_int_divisor(20);
+    string value = (check_valid_palindrome("asdf")) ? "True" : "False";
+    cout << "Is 'asdf' a valid palindrome? " << value << endl;
+    value = (check_valid_palindrome("racecar")) ? "True" : "False";
+    cout << "Is 'racecar' a valid palindrome? " << value << endl;
+    value = (is_prime_number(11)) ? "True" : "False";
+    cout << "Is 11 a prime number? " << value << endl;
+    value = (is_prime_number(15)) ? "True" : "False";
+    cout << "Is 15 a prime number? " << value << endl;
+    cout << "Printing the individual digits of 1647 line by line: " << endl;
+    print_individual_digits(1647);
+    cout << "Converting integer 10 to a binary integer: " << convert_dec_to_binary(10) << endl;
+    cout << "Converting integer 1010 to a decimal integer: " << convert_binary_to_dec(1010) << endl;
+    cout << "The largest integer divisor of 20 is " << largest_int_divisor(20) << endl;
+    cout << "The largest integer divisor of 17 is " << largest_int_divisor(17) << endl;
 
     return 0;
 }

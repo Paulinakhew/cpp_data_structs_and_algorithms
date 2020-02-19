@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/paulinakhew/Desktop/cpp_linked_list_cheat_sheet
+CMAKE_SOURCE_DIR = /Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/paulinakhew/Desktop/cpp_linked_list_cheat_sheet/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/paulinakhew/Desktop/cpp_linked_list_cheat_sheet/cmake-build-debug/CMakeFiles /Users/paulinakhew/Desktop/cpp_linked_list_cheat_sheet/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/cmake-build-debug/CMakeFiles /Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/paulinakhew/Desktop/cpp_linked_list_cheat_sheet/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -122,6 +122,33 @@ cpp_linked_lists: cmake_check_build_system
 cpp_linked_lists/fast:
 	$(MAKE) -f CMakeFiles/cpp_linked_lists.dir/build.make CMakeFiles/cpp_linked_lists.dir/build
 .PHONY : cpp_linked_lists/fast
+
+linked_lists.o: linked_lists.cpp.o
+
+.PHONY : linked_lists.o
+
+# target to build an object file
+linked_lists.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp_linked_lists.dir/build.make CMakeFiles/cpp_linked_lists.dir/linked_lists.cpp.o
+.PHONY : linked_lists.cpp.o
+
+linked_lists.i: linked_lists.cpp.i
+
+.PHONY : linked_lists.i
+
+# target to preprocess a source file
+linked_lists.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp_linked_lists.dir/build.make CMakeFiles/cpp_linked_lists.dir/linked_lists.cpp.i
+.PHONY : linked_lists.cpp.i
+
+linked_lists.s: linked_lists.cpp.s
+
+.PHONY : linked_lists.s
+
+# target to generate assembly for a file
+linked_lists.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp_linked_lists.dir/build.make CMakeFiles/cpp_linked_lists.dir/linked_lists.cpp.s
+.PHONY : linked_lists.cpp.s
 
 main.o: main.cpp.o
 
@@ -186,6 +213,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... cpp_linked_lists"
+	@echo "... linked_lists.o"
+	@echo "... linked_lists.i"
+	@echo "... linked_lists.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

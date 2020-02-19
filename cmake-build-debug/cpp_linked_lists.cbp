@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/paulinakhew/Desktop/cpp_linked_list_cheat_sheet/cmake-build-debug"/>
+				<Option working_dir="/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/paulinakhew/Desktop/cpp_linked_list_cheat_sheet/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/paulinakhew/Desktop/cpp_linked_list_cheat_sheet/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/paulinakhew/Desktop/cpp_linked_list_cheat_sheet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/paulinakhew/Desktop/cpp_linked_list_cheat_sheet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/paulinakhew/Desktop/cpp_linked_list_cheat_sheet/cmake-build-debug"/>
+				<Option working_dir="/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/paulinakhew/Desktop/cpp_linked_list_cheat_sheet/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/paulinakhew/Desktop/cpp_linked_list_cheat_sheet/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/paulinakhew/Desktop/cpp_linked_list_cheat_sheet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/paulinakhew/Desktop/cpp_linked_list_cheat_sheet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/paulinakhew/Desktop/cpp_linked_list_cheat_sheet/cmake-build-debug"/>
+				<Option working_dir="/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/paulinakhew/Desktop/cpp_linked_list_cheat_sheet/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/paulinakhew/Desktop/cpp_linked_list_cheat_sheet/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/paulinakhew/Desktop/cpp_linked_list_cheat_sheet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/paulinakhew/Desktop/cpp_linked_list_cheat_sheet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="cpp_linked_lists">
-				<Option output="/Users/paulinakhew/Desktop/cpp_linked_list_cheat_sheet/cmake-build-debug/cpp_linked_lists" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/paulinakhew/Desktop/cpp_linked_list_cheat_sheet/cmake-build-debug"/>
+				<Option output="/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/cmake-build-debug/cpp_linked_lists" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -52,15 +52,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/paulinakhew/Desktop/cpp_linked_list_cheat_sheet/cmake-build-debug/Makefile&quot;  VERBOSE=1 cpp_linked_lists"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/paulinakhew/Desktop/cpp_linked_list_cheat_sheet/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/paulinakhew/Desktop/cpp_linked_list_cheat_sheet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/paulinakhew/Desktop/cpp_linked_list_cheat_sheet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 cpp_linked_lists"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="cpp_linked_lists/fast">
-				<Option output="/Users/paulinakhew/Desktop/cpp_linked_list_cheat_sheet/cmake-build-debug/cpp_linked_lists" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/paulinakhew/Desktop/cpp_linked_list_cheat_sheet/cmake-build-debug"/>
+				<Option output="/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/cmake-build-debug/cpp_linked_lists" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -73,26 +73,29 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/paulinakhew/Desktop/cpp_linked_list_cheat_sheet/cmake-build-debug/Makefile&quot;  VERBOSE=1 cpp_linked_lists/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/paulinakhew/Desktop/cpp_linked_list_cheat_sheet/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/paulinakhew/Desktop/cpp_linked_list_cheat_sheet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/paulinakhew/Desktop/cpp_linked_list_cheat_sheet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 cpp_linked_lists/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/paulinakhew/Desktop/cpp_linked_list_cheat_sheet/linked_lists.hpp">
+		<Unit filename="/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/linked_lists.cpp">
 			<Option target="cpp_linked_lists"/>
 		</Unit>
-		<Unit filename="/Users/paulinakhew/Desktop/cpp_linked_list_cheat_sheet/main.cpp">
+		<Unit filename="/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/linked_lists.hpp">
 			<Option target="cpp_linked_lists"/>
 		</Unit>
-		<Unit filename="/Users/paulinakhew/Desktop/cpp_linked_list_cheat_sheet/recursive_functions.cpp">
+		<Unit filename="/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/main.cpp">
 			<Option target="cpp_linked_lists"/>
 		</Unit>
-		<Unit filename="/Users/paulinakhew/Desktop/cpp_linked_list_cheat_sheet/recursive_functions.hpp">
+		<Unit filename="/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/recursive_functions.cpp">
 			<Option target="cpp_linked_lists"/>
 		</Unit>
-		<Unit filename="/Users/paulinakhew/Desktop/cpp_linked_list_cheat_sheet/CMakeLists.txt">
+		<Unit filename="/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/recursive_functions.hpp">
+			<Option target="cpp_linked_lists"/>
+		</Unit>
+		<Unit filename="/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

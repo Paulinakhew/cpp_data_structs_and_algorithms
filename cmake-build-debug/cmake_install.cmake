@@ -1,4 +1,4 @@
-# Install script for directory: /Users/paulinakhew/Desktop/cpp_linked_list_cheat_sheet
+# Install script for directory: /Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/paulinakhew/Desktop/cpp_linked_list_cheat_sheet/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -79,7 +79,6 @@ bool is_prime_number(int n) {
     return is_prime_number(n, n/2);
 }
 
-
 int factorial(int n) {
     if (n == 1) {
         return 1;
@@ -88,8 +87,6 @@ int factorial(int n) {
         return n * factorial(n-1);
     }
 }
-
-
 
 int largest_int_divisor(int number) {
     return largest_int_divisor(number, number/2);
@@ -146,5 +143,4 @@ string int2ascii(int my_int) {
     int last_number = my_int % 10;
 
     return int2ascii(my_int / 10) + to_string(last_number);
-
 }
