@@ -22,6 +22,7 @@ public:
     void PrintList(LinkedList* list);
     bool FindValue (LinkedList* list, int value);
     void DeleteLast(LinkedList* list);
+    int GetLength(LinkedList* list);
     };
 
 

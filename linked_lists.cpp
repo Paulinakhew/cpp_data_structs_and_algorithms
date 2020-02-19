@@ -76,3 +76,17 @@ void LinkedList::DeleteLast(LinkedList* list) {
     // The only remaining case is that the list was empty
     // to begin with, in which case we should do nothing
 }
+
+int LinkedList::GetLength(LinkedList* list) {
+    int counter = 0;
+    if (list == NULL) {
+        return 0;
+    } else {
+        Node* iterate = list -> head;
+        while (iterate) {
+            counter ++;
+            iterate = iterate -> next;
+        }
+    }
+    return counter;
+}

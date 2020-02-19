@@ -1,7 +1,6 @@
 #include "linked_lists.hpp"
 #include "recursive_functions.hpp"
 
-
 int main() {
     LinkedList* list;
     Node* newNode = new Node();
@@ -12,9 +11,11 @@ int main() {
     list-> InsertNode(list, newerNode);
     list -> PrintList(list);
     string val_found = (list -> FindValue(list, 25)) ? "true" : "false";
+    cout << "Length of linked list: " << list -> GetLength(list) << endl;
     cout << "Value 25 found in list: " << val_found << endl;
     cout << "Deleting last node" << endl;
     list -> DeleteLast(list);
+    cout << "Length of linked list: " << list -> GetLength(list) << endl;
     val_found = (list -> FindValue(list, 25)) ? "true" : "false";
     list -> PrintList(list);
     cout << "Value 25 found in list: " << val_found << endl;
