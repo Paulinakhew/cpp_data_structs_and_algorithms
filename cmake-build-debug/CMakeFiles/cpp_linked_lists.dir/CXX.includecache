@@ -6,21 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/linked_lists.hpp
-iostream
--
-
-/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/main.cpp
+/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/linked_lists.cpp
 linked_lists.hpp
 /Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/linked_lists.hpp
-recursive_functions.hpp
-/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/recursive_functions.hpp
 
-/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/recursive_functions.hpp
+/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/linked_lists.hpp
 iostream
--
-string
--
-cmath
 -
 

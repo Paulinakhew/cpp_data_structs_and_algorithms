@@ -13,6 +13,7 @@ int main() {
     string val_found = (list -> FindValue(list, 25)) ? "true" : "false";
     cout << "Length of linked list: " << list -> GetLength(list) << endl;
     cout << "Value 25 found in list: " << val_found << endl;
+    cout << "Index of 25 in list: " << list -> GetIndex(list, 25) << endl;
     cout << "Deleting last node" << endl;
     list -> DeleteLast(list);
     cout << "Length of linked list: " << list -> GetLength(list) << endl;

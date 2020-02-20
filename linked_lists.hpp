@@ -21,6 +21,7 @@ public:
     void InsertNode(LinkedList* list, struct Node* newNode);
     void PrintList(LinkedList* list);
     bool FindValue (LinkedList* list, int value);
+    int GetIndex(LinkedList* list, int value);
     void DeleteLast(LinkedList* list);
     int GetLength(LinkedList* list);
     };

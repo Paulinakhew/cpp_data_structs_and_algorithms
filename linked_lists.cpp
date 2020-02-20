@@ -51,6 +51,20 @@ bool LinkedList::FindValue (LinkedList* list, int value) {
     return false;
 }
 
+int LinkedList::GetIndex (LinkedList* list, int value) {
+    if (list == NULL)
+        return -1;
+    Node* node = list -> head;
+    int index = 0;
+    while (node!= NULL) {
+        if (node -> data == value)
+            return index;
+        index++;
+        node = node -> next;
+    }
+    return -1;
+}
+
 void LinkedList::DeleteLast(LinkedList* list) {
     if (list == NULL)
         return;
