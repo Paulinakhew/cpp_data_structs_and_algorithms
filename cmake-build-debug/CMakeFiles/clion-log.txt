@@ -1,4 +1,4 @@
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=/Library/Developer/CommandLineTools/usr/bin/cc -DCMAKE_CXX_COMPILER=/Library/Developer/CommandLineTools/usr/bin/c++ -G "CodeBlocks - Unix Makefiles" /Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/cmake-build-debug

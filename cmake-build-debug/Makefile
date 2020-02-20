@@ -123,6 +123,33 @@ cpp_linked_lists/fast:
 	$(MAKE) -f CMakeFiles/cpp_linked_lists.dir/build.make CMakeFiles/cpp_linked_lists.dir/build
 .PHONY : cpp_linked_lists/fast
 
+binary_search.o: binary_search.cpp.o
+
+.PHONY : binary_search.o
+
+# target to build an object file
+binary_search.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp_linked_lists.dir/build.make CMakeFiles/cpp_linked_lists.dir/binary_search.cpp.o
+.PHONY : binary_search.cpp.o
+
+binary_search.i: binary_search.cpp.i
+
+.PHONY : binary_search.i
+
+# target to preprocess a source file
+binary_search.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp_linked_lists.dir/build.make CMakeFiles/cpp_linked_lists.dir/binary_search.cpp.i
+.PHONY : binary_search.cpp.i
+
+binary_search.s: binary_search.cpp.s
+
+.PHONY : binary_search.s
+
+# target to generate assembly for a file
+binary_search.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp_linked_lists.dir/build.make CMakeFiles/cpp_linked_lists.dir/binary_search.cpp.s
+.PHONY : binary_search.cpp.s
+
 linked_lists.o: linked_lists.cpp.o
 
 .PHONY : linked_lists.o
@@ -213,6 +240,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... cpp_linked_lists"
+	@echo "... binary_search.o"
+	@echo "... binary_search.i"
+	@echo "... binary_search.s"
 	@echo "... linked_lists.o"
 	@echo "... linked_lists.i"
 	@echo "... linked_lists.s"

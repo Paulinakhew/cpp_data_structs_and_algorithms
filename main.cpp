@@ -1,8 +1,21 @@
 #include "linked_lists.hpp"
 #include "recursive_functions.hpp"
+#include "binary_search.hpp"
+
 
 int main() {
     LinkedList* list;
+    cout << "Start of binary search function" << endl;
+    int num = 40;
+    int my_arr[12] = {1, 3, 7, 15, 18, 20, 25, 33, 36, 40};
+    int n = sizeof(my_arr)/ sizeof(my_arr[0]);
+    int index = get_index_binary_search(my_arr, 0, n-1, num);
+    if(index == -1)
+        cout<< num <<" is not present in the array" << endl;
+    else
+        cout<< num <<" is present at index "<< index <<" in the array" << endl;
+
+    cout << endl << endl << endl << "Start of linked list functions" << endl;
     Node* newNode = new Node();
     newNode -> data = int(5);
     list -> head = newNode;
