@@ -9,17 +9,20 @@ int main() {
     Node* newerNode = new Node();
     newerNode -> data = int(25);
     list-> InsertNode(list, newerNode);
+    Node* last = new Node(123);
+    list-> InsertNode(list, last);
+
     list -> PrintList(list);
-    string val_found = (list -> FindValue(list, 25)) ? "true" : "false";
+    string val_found = (list -> FindValue(list, 123)) ? "true" : "false";
     cout << "Length of linked list: " << list -> GetLength(list) << endl;
-    cout << "Value 25 found in list: " << val_found << endl;
+    cout << "Value 123 found in list: " << val_found << endl;
     cout << "Index of 25 in list: " << list -> GetIndex(list, 25) << endl;
     cout << "Deleting last node" << endl;
     list -> DeleteLast(list);
     cout << "Length of linked list: " << list -> GetLength(list) << endl;
-    val_found = (list -> FindValue(list, 25)) ? "true" : "false";
+    val_found = (list -> FindValue(list, 123)) ? "true" : "false";
     list -> PrintList(list);
-    cout << "Value 25 found in list: " << val_found << endl;
+    cout << "Value 123 found in list: " << val_found << endl;
 
     cout << endl << endl << endl << "Start of recursive functions" << endl;
     cout << "The factorial of 4 is " << factorial(4) << endl;

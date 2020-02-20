@@ -12,6 +12,8 @@ using namespace std;
 struct Node {
     int data;
     Node* next;
+    Node();
+    explicit Node(int new_data);
 };
 
 struct LinkedList {
@@ -24,6 +26,8 @@ public:
     int GetIndex(LinkedList* list, int value);
     void DeleteLast(LinkedList* list);
     int GetLength(LinkedList* list);
+    LinkedList();
+    ~LinkedList();
     };
 
 

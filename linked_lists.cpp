@@ -5,6 +5,18 @@
 #include "linked_lists.hpp"
 
 
+Node::Node() : data(0), next(NULL) {}
+
+Node::Node(int new_data) : data(new_data), next(NULL) {}
+
+LinkedList::LinkedList() {
+    head = NULL;
+}
+
+LinkedList::~LinkedList() {
+
+}
+
 void LinkedList::InsertNode(LinkedList* list, struct Node* newNode) {
     // If the list is empty, create a new head node
     if (list->head == NULL){
