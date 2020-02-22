@@ -2,9 +2,6 @@
 // Created by Paulina Khew on 2020-02-20.
 //
 
-#include "binary_search.hpp"
-
-
 int get_index_binary_search(int arr[], int left, int right, int num) {
     if (left <= right) {
         int mid = (left + right)/2;

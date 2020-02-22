@@ -231,6 +231,33 @@ recursive_functions.cpp.s:
 	$(MAKE) -f CMakeFiles/cpp_linked_lists.dir/build.make CMakeFiles/cpp_linked_lists.dir/recursive_functions.cpp.s
 .PHONY : recursive_functions.cpp.s
 
+sequential_search.o: sequential_search.cpp.o
+
+.PHONY : sequential_search.o
+
+# target to build an object file
+sequential_search.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp_linked_lists.dir/build.make CMakeFiles/cpp_linked_lists.dir/sequential_search.cpp.o
+.PHONY : sequential_search.cpp.o
+
+sequential_search.i: sequential_search.cpp.i
+
+.PHONY : sequential_search.i
+
+# target to preprocess a source file
+sequential_search.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp_linked_lists.dir/build.make CMakeFiles/cpp_linked_lists.dir/sequential_search.cpp.i
+.PHONY : sequential_search.cpp.i
+
+sequential_search.s: sequential_search.cpp.s
+
+.PHONY : sequential_search.s
+
+# target to generate assembly for a file
+sequential_search.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp_linked_lists.dir/build.make CMakeFiles/cpp_linked_lists.dir/sequential_search.cpp.s
+.PHONY : sequential_search.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -252,6 +279,9 @@ help:
 	@echo "... recursive_functions.o"
 	@echo "... recursive_functions.i"
 	@echo "... recursive_functions.s"
+	@echo "... sequential_search.o"
+	@echo "... sequential_search.i"
+	@echo "... sequential_search.s"
 .PHONY : help
 
 
