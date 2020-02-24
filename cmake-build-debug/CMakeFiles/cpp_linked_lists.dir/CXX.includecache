@@ -6,8 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/binary_search.cpp
-
 /Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/binary_search.hpp
 
 /Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/linked_lists.hpp
@@ -23,6 +21,8 @@ binary_search.hpp
 /Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/binary_search.hpp
 sequential_search.hpp
 /Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/sequential_search.hpp
+chrono
+-
 
 /Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/recursive_functions.hpp
 iostream
@@ -31,8 +31,6 @@ string
 -
 cmath
 -
-
-/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/sequential_search.cpp
 
 /Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/sequential_search.hpp
 
