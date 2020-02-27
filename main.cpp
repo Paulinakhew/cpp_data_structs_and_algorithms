@@ -55,6 +55,13 @@ int main() {
     else
         cout << "Stack is not empty\n";
 
+    pt.push(1);
+    pt.push(2);
+    pt.push(3);
+
+    cout << "Removing max number from stack\n";
+    pt.removeMaxFromStack();
+
 
 
     int num = 999;

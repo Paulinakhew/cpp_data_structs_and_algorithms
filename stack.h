@@ -17,7 +17,7 @@ class stack {
     int top, capacity;
 
 public:
-    stack(int size = SIZE);
+    explicit stack(int size = SIZE);
     ~stack();
 
     void push(int);
@@ -27,6 +27,8 @@ public:
     int size();
     bool isEmpty();
     bool isFull();
+
+    void removeMaxFromStack();
 };
 
 #endif //CPP_LINKED_LISTS_STACK_H
