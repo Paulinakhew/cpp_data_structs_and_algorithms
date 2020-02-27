@@ -1,6 +1,11 @@
 # C++ Data Structures and Algorithms
-This repo has examples of the following data structures and algorithms:
-- [Linked lists](main.cpp)
-- [Recursive functions](recursive_functions.cpp)
+
+### Sorting Algorithms
 - [Binary search](binary_search.cpp)
 - [Sequential search](sequential_search.cpp)
+
+### Data Structures
+- [Linked lists](main.cpp)
+
+### Recursive Functions
+- [Recursive functions](recursive_functions.cpp)
