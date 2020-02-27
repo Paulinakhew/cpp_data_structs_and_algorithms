@@ -5,6 +5,9 @@
 #ifndef CPP_LINKED_LISTS_SEQUENTIAL_SEARCH_HPP
 #define CPP_LINKED_LISTS_SEQUENTIAL_SEARCH_HPP
 
-int sequential_search(int arr[], int size, int num);
+#include <vector>
+using namespace std;
+
+int sequential_search(vector <int> numbers, int size, int num);
 
 #endif //CPP_LINKED_LISTS_SEQUENTIAL_SEARCH_HPP

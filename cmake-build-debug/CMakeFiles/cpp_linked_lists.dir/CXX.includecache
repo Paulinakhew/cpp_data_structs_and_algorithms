@@ -6,31 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/binary_search.hpp
-
-/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/linked_lists.hpp
-iostream
--
-
-/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/main.cpp
-linked_lists.hpp
-/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/linked_lists.hpp
-recursive_functions.hpp
-/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/recursive_functions.hpp
+/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/binary_search.cpp
 binary_search.hpp
 /Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/binary_search.hpp
-sequential_search.hpp
-/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/sequential_search.hpp
-chrono
--
 
-/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/recursive_functions.hpp
-iostream
+/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/binary_search.hpp
+vector
 -
-string
--
-cmath
--
-
-/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/sequential_search.hpp
 
