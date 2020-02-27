@@ -29,6 +29,7 @@ public:
     bool isFull();
 
     void removeMaxFromStack();
+    void printStack();
 };
 
 #endif //CPP_LINKED_LISTS_STACK_H

@@ -54,7 +54,7 @@ bool stack::isFull() {
     return top == capacity - 1; // or return size() == capacity
 }
 
-void stack::removeMaxFromStack() {
+void stack::removeMaxFromStack() {  // remove maximum value from stack
     if (isEmpty()) {
         cout << "Stack is empty\nCannot remove max number";
         exit(EXIT_FAILURE);
@@ -72,9 +72,20 @@ void stack::removeMaxFromStack() {
     }
     while (!new_stack.isEmpty()) { // put numbers back in original stack
         int cur = new_stack.peek();
-        if (cur < max)
+        if (cur < max) {
+            cout << "Re-adding numbers to original stack: ";
             push(cur);
+        }
         cout << "Removing from the new stack: ";
         new_stack.pop();
     }
+}
+
+void stack::printStack() {
+    int num = size();
+    cout << "This is the current stack: [ ";
+    for (int i = 0; i < num; i++) {
+        cout << arr[i] << " ";
+    }
+    cout << "]" << endl;
 }
