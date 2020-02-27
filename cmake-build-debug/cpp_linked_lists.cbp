@@ -110,7 +110,7 @@
 		<Unit filename="/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/stack.cpp">
 			<Option target="cpp_linked_lists"/>
 		</Unit>
-		<Unit filename="/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/stack.h">
+		<Unit filename="/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/stack.hpp">
 			<Option target="cpp_linked_lists"/>
 		</Unit>
 		<Unit filename="/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/CMakeLists.txt">

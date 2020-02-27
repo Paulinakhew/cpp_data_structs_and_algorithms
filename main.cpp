@@ -2,7 +2,7 @@
 #include "recursive_functions.hpp"
 #include "binary_search.hpp"
 #include "sequential_search.hpp"
-#include "stack.h"
+#include "stack.hpp"
 #include <chrono>
 #include <vector>
 
@@ -32,6 +32,23 @@ void printExecutionTime(ClockTime start_time, ClockTime end_time)
     if(execution_time_ns > 0)
         cout << "" << execution_time_ns % long(1E+6) << " NanoSeconds, ";
 }
+
+vector<int> selection_sort(vector<int> numbers) {
+    int max_position, temporary, size;
+    size = numbers.size();
+    for (int i = size-1; i > 0; --i) {
+        max_position = i;
+        for (int j = 0; j < i; ++j) {
+            if (numbers[j] > numbers[max_position])
+                max_position = j;
+        }
+        temporary = numbers[i];
+        numbers[i] = numbers[max_position];
+        numbers[max_position] = temporary;
+    }
+    return numbers;
+}
+
 
 int main() {
     LinkedList* list;
@@ -63,6 +80,12 @@ int main() {
     pt.removeMaxFromStack();
     pt.printStack();
 
+    vector<int> unsorted = {4, 9, 28, 46, 1, 7, 232, 801};
+    vector<int> sorted = selection_sort(unsorted);
+    for (int i = 0; i < sorted.size(); i++) {
+        cout << sorted[i] << " ";
+    }
+    cout << endl;
 
 
     cout << endl << endl << endl << "Start of search functions" << endl;

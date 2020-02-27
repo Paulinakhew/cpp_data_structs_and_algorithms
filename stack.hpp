@@ -2,8 +2,8 @@
 // Created by Paulina Khew on 2020-02-26.
 //
 
-#ifndef CPP_LINKED_LISTS_STACK_H
-#define CPP_LINKED_LISTS_STACK_H
+#ifndef CPP_LINKED_LISTS_STACK_HPP
+#define CPP_LINKED_LISTS_STACK_HPP
 
 #include <iostream>
 #include <cstdlib>
@@ -32,4 +32,4 @@ public:
     void printStack();
 };
 
-#endif //CPP_LINKED_LISTS_STACK_H
+#endif //CPP_LINKED_LISTS_STACK_HPP

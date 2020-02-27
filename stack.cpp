@@ -2,7 +2,7 @@
 // Created by Paulina Khew on 2020-02-26.
 //
 
-#include "stack.h"
+#include "stack.hpp"
 
 stack::stack(int size) {  // constructor to initialize stack
     arr = new int[size];
