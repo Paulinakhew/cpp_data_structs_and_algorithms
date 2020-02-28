@@ -5,7 +5,8 @@
 - [Sequential search](sequential_search.cpp)
 
 ### Data Structures
-- [Linked lists](main.cpp)
+- [Linked lists](linked_lists.cpp)
+- [Stacks](stack.cpp)
 
 ### Recursive Functions
 - [Recursive functions](recursive_functions.cpp)
