@@ -39,6 +39,10 @@ void print_series_of_squares(int n) {
     }
 }
 
+int largest_int_divisor(int number) {  // helper function
+    return largest_int_divisor(number, number/2);
+}
+
 int largest_int_divisor(int number, int divisor) {
     if (divisor == 1){
         return 1;
@@ -64,6 +68,10 @@ bool check_valid_palindrome(string my_string) {
     }
 }
 
+bool is_prime_number(int n) {  // helper function
+    return is_prime_number(n, n/2);
+}
+
 bool is_prime_number(int n, int divisor) {
     if (divisor == 1)
         return true;
@@ -75,10 +83,6 @@ bool is_prime_number(int n, int divisor) {
     }
 }
 
-bool is_prime_number(int n) {
-    return is_prime_number(n, n/2);
-}
-
 int factorial(int n) {
     if (n == 1) {
         return 1;
@@ -86,10 +90,6 @@ int factorial(int n) {
     else {
         return n * factorial(n-1);
     }
-}
-
-int largest_int_divisor(int number) {
-    return largest_int_divisor(number, number/2);
 }
 
 int convert_dec_to_binary(int decimal) {
@@ -143,4 +143,27 @@ string int2ascii(int my_int) {
     int last_number = my_int % 10;
 
     return int2ascii(my_int / 10) + to_string(last_number);
+}
+
+vector<int> recursive_selection_sort(vector<int> numbers, int n) {
+    int max_position, temp;
+    if (n > 0) {
+        max_position = find_max(numbers, n);
+        temp = numbers[n];
+        numbers[n] = numbers[max_position];
+        numbers[max_position] = temp;
+        return recursive_selection_sort(numbers, n - 1);
+    } else {
+        return numbers;
+    }
+}
+
+int find_max(vector<int> numbers, int n) {
+    int j = n;
+    for (int i = 0; i < n; i++) {
+        if (numbers[i] > numbers[j]) {
+            j = i;
+        }
+    }
+    return j;
 }

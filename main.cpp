@@ -82,10 +82,17 @@ int main() {
 
     vector<int> unsorted = {4, 9, 28, 46, 1, 7, 232, 801};
     vector<int> sorted = selection_sort(unsorted);
-    for (int i = 0; i < sorted.size(); i++) {
-        cout << sorted[i] << " ";
+    vector<int> sorted_2 = recursive_selection_sort(unsorted, unsorted.size() - 1);
+    if (sorted == sorted_2) {
+        cout << "Both selection sort and the recursive selection sort outputted: [ ";
+        for (int i = 0; i < sorted.size(); i++) {
+            cout << sorted[i] << " ";
+        }
+        cout << "]" << endl;
+    } else {
+        cout << "Selection sort and recursive selection sort did not return the same array" << endl;
     }
-    cout << endl;
+
 
 
     cout << endl << endl << endl << "Start of search functions" << endl;

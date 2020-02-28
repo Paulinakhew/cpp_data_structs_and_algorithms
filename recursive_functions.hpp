@@ -7,6 +7,7 @@
 #include <iostream>
 #include <string>
 #include <cmath>
+#include <vector>
 
 using namespace std;
 
@@ -26,6 +27,9 @@ int bin2dec(string binary);
 string dec2bin(int decimal);
 int ascii2int(string digits);
 string int2ascii(int my_int);
+vector<int> recursive_selection_sort(vector<int> numbers, int n);
+int find_max(vector<int> numbers, int n);
+
 
 
 #endif //CPP_LINKED_LISTS_RECURSIVE_FUNCTIONS_HPP
