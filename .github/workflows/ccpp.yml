@@ -11,5 +11,5 @@ jobs:
     - uses: actions/checkout@v2
     - name: make
       run: make cmake-build-debug/CMakeFiles/Makefile.cmake
-    - name: make distcheck
-      run: make distcheck
+    - name: action-cpp-lint
+      uses: CyberZHG/github-action-cpp-lint@0.0.2
