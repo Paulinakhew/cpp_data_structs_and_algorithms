@@ -69,7 +69,10 @@ bool check_valid_palindrome(string my_string) {
 }
 
 bool is_prime_number(int n) {  // helper function
-    return is_prime_number(n, n/2);
+    if (n > 1)
+        return is_prime_number(n, n/2);
+    else
+        return false;
 }
 
 bool is_prime_number(int n, int divisor) {

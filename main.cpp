@@ -3,8 +3,12 @@
 #include "binary_search.hpp"
 #include "sequential_search.hpp"
 #include "stack.hpp"
+#include "test_functions.hpp"
 #include <chrono>
+#include <iostream>
 #include <vector>
+#include <string>
+#include <array>
 
 using namespace std::chrono;
 
@@ -33,6 +37,10 @@ void printExecutionTime(ClockTime start_time, ClockTime end_time)
         cout << "" << execution_time_ns % long(1E+6) << " NanoSeconds, ";
 }
 
+string get_status_str(bool status) {
+    return status ? "TEST PASSED" : "TEST FAILED";
+}
+
 vector<int> selection_sort(vector<int> numbers) {
     int max_position, temporary, size;
     size = numbers.size();
@@ -52,6 +60,8 @@ vector<int> selection_sort(vector<int> numbers) {
 
 int main() {
     LinkedList* list;
+    TestDataStructsandAlgorithms test_data_structs_and_algos;
+
 
     cout << "Start of stack implementation" << endl;
     stack pt(3);
@@ -145,34 +155,21 @@ int main() {
     list -> PrintList(list);
     cout << "Value 123 found in list: " << val_found << endl;
 
+    array<string, 4> test_descriptions = {
+            "Test 1: recursive functions return the proper output",
+            "Test 2: check stack implementation",
+            "Test 3: test sort algorithms return the same vectors",
+            "Test 4: initialize and test various linked list functions"
+    };
 
+    bool test_results[4] = {false};
+    test_results[0] = test_data_structs_and_algos.test_recursive_functions();
 
-    cout << endl << endl << endl << "Start of recursive functions" << endl;
-    cout << "The factorial of 4 is " << factorial(4) << endl;
-    cout << "The result of converting the string '16235' into an integer is " << ascii2int("16235") << endl;
-    cout << "The result of converting the integer 1234567 to a string is '" << int2ascii(1234567) << "'" << endl;
-    cout << "Converting the string '10010' into decimal results in " << bin2dec("10010") << endl;
-    cout << "Converting the integer 12 into a binary string results in '" << dec2bin(12) << "'" << endl;
-    cout << "Printing 12345 in reverse: ";
-    print_reverse_int(12345);
-    cout << endl;
-    cout << "Computing the sum of integers until 5: " << compute_sum_of_series(5) << endl;
-    cout << "Printing the series of squares until 5: " << endl;
-    print_series_of_squares(5);
-    string value = (check_valid_palindrome("asdf")) ? "True" : "False";
-    cout << "Is 'asdf' a valid palindrome? " << value << endl;
-    value = (check_valid_palindrome("racecar")) ? "True" : "False";
-    cout << "Is 'racecar' a valid palindrome? " << value << endl;
-    value = (is_prime_number(11)) ? "True" : "False";
-    cout << "Is 11 a prime number? " << value << endl;
-    value = (is_prime_number(15)) ? "True" : "False";
-    cout << "Is 15 a prime number? " << value << endl;
-    cout << "Printing the individual digits of 1647 line by line: " << endl;
-    print_individual_digits(1647);
-    cout << "Converting integer 10 to a binary integer: " << convert_dec_to_binary(10) << endl;
-    cout << "Converting integer 1010 to a decimal integer: " << convert_binary_to_dec(1010) << endl;
-    cout << "The largest integer divisor of 20 is " << largest_int_divisor(20) << endl;
-    cout << "The largest integer divisor of 17 is " << largest_int_divisor(17) << endl;
+    cout << "\n\n\n\n\nTEST RESULTS \n";
+    cout << "*************************** \n";
+    for (int index = 0; index < 4; ++index) {
+        cout << test_descriptions[index] << endl << get_status_str(test_results[index]) << endl;
+    }
 
     return 0;
 }

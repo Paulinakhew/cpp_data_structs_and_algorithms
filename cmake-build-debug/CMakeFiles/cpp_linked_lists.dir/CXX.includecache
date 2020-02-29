@@ -25,9 +25,17 @@ sequential_search.hpp
 /Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/sequential_search.hpp
 stack.hpp
 /Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/stack.hpp
+test_functions.hpp
+/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/test_functions.hpp
 chrono
 -
+iostream
+-
 vector
+-
+string
+-
+array
 -
 
 /Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/recursive_functions.hpp
@@ -49,4 +57,16 @@ iostream
 -
 cstdlib
 -
+
+/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/test_functions.hpp
+linked_lists.hpp
+/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/linked_lists.hpp
+recursive_functions.hpp
+/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/recursive_functions.hpp
+binary_search.hpp
+/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/binary_search.hpp
+sequential_search.hpp
+/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/sequential_search.hpp
+stack.hpp
+/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/stack.hpp
 
