@@ -4,10 +4,10 @@
 #include "sequential_search.hpp"
 #include "stack.hpp"
 #include "test_functions.hpp"
+#include "selection_sort.h"
 #include <chrono>
 #include <iostream>
 #include <vector>
-#include <string>
 #include <array>
 
 using namespace std::chrono;
@@ -39,22 +39,6 @@ void printExecutionTime(ClockTime start_time, ClockTime end_time)
 
 string get_status_str(bool status) {
     return status ? "TEST PASSED" : "TEST FAILED";
-}
-
-vector<int> selection_sort(vector<int> numbers) {
-    int max_position, temporary, size;
-    size = numbers.size();
-    for (int i = size-1; i > 0; --i) {
-        max_position = i;
-        for (int j = 0; j < i; ++j) {
-            if (numbers[j] > numbers[max_position])
-                max_position = j;
-        }
-        temporary = numbers[i];
-        numbers[i] = numbers[max_position];
-        numbers[max_position] = temporary;
-    }
-    return numbers;
 }
 
 

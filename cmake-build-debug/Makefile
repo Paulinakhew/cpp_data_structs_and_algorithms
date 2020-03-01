@@ -231,6 +231,33 @@ recursive_functions.cpp.s:
 	$(MAKE) -f CMakeFiles/cpp_linked_lists.dir/build.make CMakeFiles/cpp_linked_lists.dir/recursive_functions.cpp.s
 .PHONY : recursive_functions.cpp.s
 
+selection_sort.o: selection_sort.cpp.o
+
+.PHONY : selection_sort.o
+
+# target to build an object file
+selection_sort.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp_linked_lists.dir/build.make CMakeFiles/cpp_linked_lists.dir/selection_sort.cpp.o
+.PHONY : selection_sort.cpp.o
+
+selection_sort.i: selection_sort.cpp.i
+
+.PHONY : selection_sort.i
+
+# target to preprocess a source file
+selection_sort.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp_linked_lists.dir/build.make CMakeFiles/cpp_linked_lists.dir/selection_sort.cpp.i
+.PHONY : selection_sort.cpp.i
+
+selection_sort.s: selection_sort.cpp.s
+
+.PHONY : selection_sort.s
+
+# target to generate assembly for a file
+selection_sort.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp_linked_lists.dir/build.make CMakeFiles/cpp_linked_lists.dir/selection_sort.cpp.s
+.PHONY : selection_sort.cpp.s
+
 sequential_search.o: sequential_search.cpp.o
 
 .PHONY : sequential_search.o
@@ -306,6 +333,9 @@ help:
 	@echo "... recursive_functions.o"
 	@echo "... recursive_functions.i"
 	@echo "... recursive_functions.s"
+	@echo "... selection_sort.o"
+	@echo "... selection_sort.i"
+	@echo "... selection_sort.s"
 	@echo "... sequential_search.o"
 	@echo "... sequential_search.i"
 	@echo "... sequential_search.s"

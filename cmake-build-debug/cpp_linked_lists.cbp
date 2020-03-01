@@ -101,6 +101,12 @@
 		<Unit filename="/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/recursive_functions.hpp">
 			<Option target="cpp_linked_lists"/>
 		</Unit>
+		<Unit filename="/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/selection_sort.cpp">
+			<Option target="cpp_linked_lists"/>
+		</Unit>
+		<Unit filename="/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/selection_sort.h">
+			<Option target="cpp_linked_lists"/>
+		</Unit>
 		<Unit filename="/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/sequential_search.cpp">
 			<Option target="cpp_linked_lists"/>
 		</Unit>

@@ -11,12 +11,16 @@ CMakeFiles/cpp_linked_lists.dir/main.cpp.o: ../binary_search.hpp
 CMakeFiles/cpp_linked_lists.dir/main.cpp.o: ../linked_lists.hpp
 CMakeFiles/cpp_linked_lists.dir/main.cpp.o: ../main.cpp
 CMakeFiles/cpp_linked_lists.dir/main.cpp.o: ../recursive_functions.hpp
+CMakeFiles/cpp_linked_lists.dir/main.cpp.o: ../selection_sort.h
 CMakeFiles/cpp_linked_lists.dir/main.cpp.o: ../sequential_search.hpp
 CMakeFiles/cpp_linked_lists.dir/main.cpp.o: ../stack.hpp
 CMakeFiles/cpp_linked_lists.dir/main.cpp.o: ../test_functions.hpp
 
 CMakeFiles/cpp_linked_lists.dir/recursive_functions.cpp.o: ../recursive_functions.cpp
 CMakeFiles/cpp_linked_lists.dir/recursive_functions.cpp.o: ../recursive_functions.hpp
+
+CMakeFiles/cpp_linked_lists.dir/selection_sort.cpp.o: ../selection_sort.cpp
+CMakeFiles/cpp_linked_lists.dir/selection_sort.cpp.o: ../selection_sort.h
 
 CMakeFiles/cpp_linked_lists.dir/sequential_search.cpp.o: ../sequential_search.cpp
 CMakeFiles/cpp_linked_lists.dir/sequential_search.cpp.o: ../sequential_search.hpp
