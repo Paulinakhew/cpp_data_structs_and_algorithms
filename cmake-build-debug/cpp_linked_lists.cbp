@@ -95,6 +95,12 @@
 		<Unit filename="/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/main.cpp">
 			<Option target="cpp_linked_lists"/>
 		</Unit>
+		<Unit filename="/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/print_execution_time.cpp">
+			<Option target="cpp_linked_lists"/>
+		</Unit>
+		<Unit filename="/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/print_execution_time.hpp">
+			<Option target="cpp_linked_lists"/>
+		</Unit>
 		<Unit filename="/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/recursive_functions.cpp">
 			<Option target="cpp_linked_lists"/>
 		</Unit>
@@ -104,7 +110,7 @@
 		<Unit filename="/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/selection_sort.cpp">
 			<Option target="cpp_linked_lists"/>
 		</Unit>
-		<Unit filename="/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/selection_sort.h">
+		<Unit filename="/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/selection_sort.hpp">
 			<Option target="cpp_linked_lists"/>
 		</Unit>
 		<Unit filename="/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/sequential_search.cpp">

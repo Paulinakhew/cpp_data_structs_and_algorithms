@@ -2,7 +2,7 @@
 // Created by Paulina Khew on 2020-02-29.
 //
 
-#include "selection_sort.h"
+#include "selection_sort.hpp"
 
 
 vector<int> selection_sort(vector<int> numbers) {

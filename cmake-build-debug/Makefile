@@ -204,6 +204,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/cpp_linked_lists.dir/build.make CMakeFiles/cpp_linked_lists.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+print_execution_time.o: print_execution_time.cpp.o
+
+.PHONY : print_execution_time.o
+
+# target to build an object file
+print_execution_time.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp_linked_lists.dir/build.make CMakeFiles/cpp_linked_lists.dir/print_execution_time.cpp.o
+.PHONY : print_execution_time.cpp.o
+
+print_execution_time.i: print_execution_time.cpp.i
+
+.PHONY : print_execution_time.i
+
+# target to preprocess a source file
+print_execution_time.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp_linked_lists.dir/build.make CMakeFiles/cpp_linked_lists.dir/print_execution_time.cpp.i
+.PHONY : print_execution_time.cpp.i
+
+print_execution_time.s: print_execution_time.cpp.s
+
+.PHONY : print_execution_time.s
+
+# target to generate assembly for a file
+print_execution_time.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp_linked_lists.dir/build.make CMakeFiles/cpp_linked_lists.dir/print_execution_time.cpp.s
+.PHONY : print_execution_time.cpp.s
+
 recursive_functions.o: recursive_functions.cpp.o
 
 .PHONY : recursive_functions.o
@@ -330,6 +357,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... print_execution_time.o"
+	@echo "... print_execution_time.i"
+	@echo "... print_execution_time.s"
 	@echo "... recursive_functions.o"
 	@echo "... recursive_functions.i"
 	@echo "... recursive_functions.s"
