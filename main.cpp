@@ -1,13 +1,17 @@
 #include "linked_lists.hpp"
-#include "recursive_functions.hpp"
 #include "binary_search.hpp"
 #include "sequential_search.hpp"
-#include "stack.hpp"
 #include "test_functions.hpp"
-#include "selection_sort.hpp"
 #include "print_execution_time.hpp"
 #include <vector>
 #include <array>
+#include <chrono>
+
+using namespace std;
+using namespace std::chrono;
+
+typedef high_resolution_clock Clock;
+typedef Clock::time_point ClockTime;
 
 string get_status_str(bool status) {
     return status ? "TEST PASSED" : "TEST FAILED";
@@ -16,21 +20,6 @@ string get_status_str(bool status) {
 int main() {
     LinkedList* list;
     TestDataStructsandAlgorithms test_data_structs_and_algos;
-
-    cout << "Start of stack implementation" << endl;
-
-    vector<int> unsorted = {4, 9, 28, 46, 1, 7, 232, 801};
-    vector<int> sorted = selection_sort(unsorted);
-    vector<int> sorted_2 = recursive_selection_sort(unsorted, unsorted.size() - 1);
-    if (sorted == sorted_2) {
-        cout << "Both selection sort and the recursive selection sort outputted: [ ";
-        for (int i = 0; i < sorted.size(); i++) {
-            cout << sorted[i] << " ";
-        }
-        cout << "]" << endl;
-    } else {
-        cout << "Selection sort and recursive selection sort did not return the same array" << endl;
-    }
 
 
     cout << endl << endl << endl << "Start of search functions" << endl;
@@ -61,41 +50,25 @@ int main() {
         cout << "Both binary search and sequential search outputted an index of " << seq_search_index << endl;
 
 
-    cout << endl << endl << endl << "Start of linked list functions" << endl;
-    Node* newNode = new Node();
-    newNode -> data = int(5);
-    list -> head = newNode;
-    Node* newerNode = new Node();
-    newerNode -> data = int(25);
-    list-> InsertNode(list, newerNode);
-    Node* last = new Node(123);
-    list-> InsertNode(list, last);
-    list -> PrintList(list);
-    string val_found = (list -> FindValue(list, 123)) ? "true" : "false";
-    cout << "Length of linked list: " << list -> GetLength(list) << endl;
-    cout << "Value 123 found in list: " << val_found << endl;
-    cout << "Index of 25 in list: " << list -> GetIndex(list, 25) << endl;
-    cout << "Deleting last node" << endl;
-    list -> DeleteLast(list);
-    cout << "Length of linked list: " << list -> GetLength(list) << endl;
-    val_found = (list -> FindValue(list, 123)) ? "true" : "false";
-    list -> PrintList(list);
-    cout << "Value 123 found in list: " << val_found << endl;
 
-    array<string, 4> test_descriptions = {
+    array<string, 5> test_descriptions = {
             "Test 1: recursive functions return the proper output",
             "Test 2: check stack implementation",
             "Test 3: test sort algorithms return the same vectors",
-            "Test 4: initialize and test various linked list functions"
+            "Test 4: initialize and test various linked list functions",
+            "Test 5: use search functions to find index of a value"
     };
 
-    bool test_results[4] = {false};
+    bool test_results[5] = {false};
     test_results[0] = test_data_structs_and_algos.test_recursive_functions();
     test_results[1] = test_data_structs_and_algos.test_stack_implementation();
+    test_results[2] = test_data_structs_and_algos.test_sort_algorithms();
+    test_results[3] = test_data_structs_and_algos.test_linked_list();
+    test_results[4] = test_data_structs_and_algos.test_search_functions();
 
     cout << "\n\n\n\n\nTEST RESULTS \n";
     cout << "*************************** \n";
-    for (int index = 0; index < 4; ++index) {
+    for (int index = 0; index < 5; ++index) {
         cout << test_descriptions[index] << endl << get_status_str(test_results[index]) << endl;
     }
 

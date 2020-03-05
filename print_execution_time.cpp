@@ -3,14 +3,15 @@
 //
 
 #include "print_execution_time.hpp"
+using namespace std;
 
 void printExecutionTime(ClockTime start_time, ClockTime end_time)
 {
-    auto execution_time_ns = duration_cast<nanoseconds>(end_time - start_time).count();
-    auto execution_time_ms = duration_cast<microseconds>(end_time - start_time).count();
-    auto execution_time_sec = duration_cast<seconds>(end_time - start_time).count();
-    auto execution_time_min = duration_cast<minutes>(end_time - start_time).count();
-    auto execution_time_hour = duration_cast<hours>(end_time - start_time).count();
+    auto execution_time_ns = std::chrono::duration_cast<std::chrono::nanoseconds>(end_time - start_time).count();
+    auto execution_time_ms = std::chrono::duration_cast<std::chrono::microseconds>(end_time - start_time).count();
+    auto execution_time_sec = std::chrono::duration_cast<std::chrono::seconds>(end_time - start_time).count();
+    auto execution_time_min = std::chrono::duration_cast<std::chrono::minutes>(end_time - start_time).count();
+    auto execution_time_hour = std::chrono::duration_cast<std::chrono::hours>(end_time - start_time).count();
 
     cout << "\nExecution Time: ";
     if(execution_time_hour > 0)

@@ -10,6 +10,8 @@
 #include "binary_search.hpp"
 #include "sequential_search.hpp"
 #include "stack.hpp"
+#include "selection_sort.hpp"
+#include <vector>
 
 using namespace std;
 
@@ -92,6 +94,24 @@ public:
         assert(pt.peek() == 1);
         pt.pop();
         assert(pt.isEmpty());
+
+        return true;
+    }
+
+    bool test_sort_algorithms() {
+        vector<int> unsorted = {4, 9, 28, 46, 1, 7, 232, 801};
+        vector<int> sorted = selection_sort(unsorted);
+        vector<int> sorted_2 = recursive_selection_sort(unsorted, unsorted.size() - 1);
+        assert(sorted == sorted_2);
+        return true;
+    }
+
+    bool test_linked_list() {
+        return false;
+    }
+
+    bool test_search_functions() {
+        return false;
     }
 };
 
