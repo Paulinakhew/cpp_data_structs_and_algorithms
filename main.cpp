@@ -49,7 +49,26 @@ int main() {
     if (bin_search_index == seq_search_index)
         cout << "Both binary search and sequential search outputted an index of " << seq_search_index << endl;
 
-
+    cout << endl << endl << endl << "Start of linked list functions" << endl;
+    Node* newNode = new Node();
+    newNode -> data = int(5);
+    list -> head = newNode;
+    Node* newerNode = new Node();
+    newerNode -> data = int(25);
+    list-> InsertNode(list, newerNode);
+    Node* last = new Node(123);
+    list-> InsertNode(list, last);
+    list -> PrintList(list);
+    string val_found = (list -> FindValue(list, 123)) ? "true" : "false";
+    cout << "Length of linked list: " << list -> GetLength(list) << endl;
+    cout << "Value 123 found in list: " << val_found << endl;
+    cout << "Index of 25 in list: " << list -> GetIndex(list, 25) << endl;
+    cout << "Deleting last node" << endl;
+    list -> DeleteLast(list);
+    cout << "Length of linked list: " << list -> GetLength(list) << endl;
+    val_found = (list -> FindValue(list, 123)) ? "true" : "false";
+    list -> PrintList(list);
+    cout << "Value 123 found in list: " << val_found << endl;
 
     array<string, 5> test_descriptions = {
             "Test 1: recursive functions return the proper output",
