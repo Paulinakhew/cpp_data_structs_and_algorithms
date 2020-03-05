@@ -65,6 +65,34 @@ public:
 
         return true;
     }
+
+    bool test_stack_implementation() {
+        stack pt(3);
+        pt.push(1);
+        pt.push(2);
+        pt.pop();
+        pt.pop();
+        pt.push(3);
+
+        assert(pt.peek() == 3);
+        assert(pt.size() == 1);
+
+        pt.pop();
+
+        assert(pt.isEmpty());
+
+        pt.push(1);
+        pt.push(25);
+        pt.push(2);
+
+        pt.removeMaxFromStack();
+        pt.printStack();
+        assert(pt.peek() == 2);
+        pt.pop();
+        assert(pt.peek() == 1);
+        pt.pop();
+        assert(pt.isEmpty());
+    }
 };
 
 #endif //CPP_LINKED_LISTS_TEST_FUNCTIONS_HPP

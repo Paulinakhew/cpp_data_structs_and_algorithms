@@ -18,31 +18,6 @@ int main() {
     TestDataStructsandAlgorithms test_data_structs_and_algos;
 
     cout << "Start of stack implementation" << endl;
-    stack pt(3);
-    pt.push(1);
-    pt.push(2);
-
-    pt.pop();
-    pt.pop();
-
-    pt.push(3);
-    cout << "Top element is: " << pt.peek() << endl;
-    cout << "Stack size is " << pt.size() << endl;
-
-    pt.pop();
-
-    if (pt.isEmpty())
-        cout << "Stack is empty\n";
-    else
-        cout << "Stack is not empty\n";
-
-    pt.push(1);
-    pt.push(25);
-    pt.push(2);
-
-    cout << "Removing max number from stack\n";
-    pt.removeMaxFromStack();
-    pt.printStack();
 
     vector<int> unsorted = {4, 9, 28, 46, 1, 7, 232, 801};
     vector<int> sorted = selection_sort(unsorted);
@@ -84,7 +59,7 @@ int main() {
         cout << num << " is present at index " << seq_search_index << " in the array" << endl;
     if (bin_search_index == seq_search_index)
         cout << "Both binary search and sequential search outputted an index of " << seq_search_index << endl;
-    
+
 
     cout << endl << endl << endl << "Start of linked list functions" << endl;
     Node* newNode = new Node();
@@ -116,6 +91,7 @@ int main() {
 
     bool test_results[4] = {false};
     test_results[0] = test_data_structs_and_algos.test_recursive_functions();
+    test_results[1] = test_data_structs_and_algos.test_stack_implementation();
 
     cout << "\n\n\n\n\nTEST RESULTS \n";
     cout << "*************************** \n";
