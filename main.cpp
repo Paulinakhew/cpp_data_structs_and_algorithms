@@ -14,14 +14,13 @@ string get_status_str(bool status) {
 }
 
 int main() {
-    LinkedList* list;
     TestDataStructsandAlgorithms test_data_structs_and_algos;
+    LinkedList* list;
+
     cout << endl << endl << endl << "Start of linked list functions" << endl;
-    Node* newNode = new Node();
-    newNode -> data = int(5);
-    list -> head = newNode;
-    Node* newerNode = new Node();
-    newerNode -> data = int(25);
+    Node* newNode = new Node(5);
+    list -> InsertNode(list, newNode);
+    Node* newerNode = new Node(25);
     list-> InsertNode(list, newerNode);
     Node* last = new Node(123);
     list-> InsertNode(list, last);

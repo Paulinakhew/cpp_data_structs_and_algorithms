@@ -38,11 +38,11 @@ void LinkedList::InsertNode(LinkedList* list, struct Node* newNode) {
 }
 
 void LinkedList::PrintList(LinkedList* list) {
-    if (list == NULL)
+    if (list == nullptr)
         return;
     cout << "(";
     Node* node = list -> head;
-    while (node != NULL) {
+    while (node != nullptr) {
         cout << "[" << node -> data << "]";
         node = node -> next;
         if (node != NULL)
@@ -52,10 +52,10 @@ void LinkedList::PrintList(LinkedList* list) {
 }
 
 bool LinkedList::FindValue (LinkedList* list, int value) {
-    if (list == NULL)
+    if (list == nullptr)
         return false;
     Node* node = list -> head;
-    while (node != NULL) {
+    while (node != nullptr) {
         if (node -> data == value)
             return true;
         node = node -> next;
@@ -64,7 +64,7 @@ bool LinkedList::FindValue (LinkedList* list, int value) {
 }
 
 int LinkedList::GetIndex (LinkedList* list, int value) {
-    if (list == NULL)
+    if (list == nullptr)
         return -1;
     Node* node = list -> head;
     int index = 0;
