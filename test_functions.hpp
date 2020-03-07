@@ -28,7 +28,7 @@ typedef Clock::time_point ClockTime;
 class TestDataStructsandAlgorithms {
 public:
     bool test_recursive_functions() {
-        cout << endl << endl << endl << "Start of recursive functions" << endl;
+        cout << "Start of recursive functions" << endl;
         cout << "Printing 12345 in reverse: ";
         print_reverse_int(12345);
         cout << endl;
@@ -72,10 +72,12 @@ public:
 
         assert(int2ascii(1234567) == "1234567");
 
+        cout << "\n\n\n";
         return true;
     }
 
     bool test_stack_implementation() {
+        cout << "Start of stack implementation" << endl;
         stack pt(3);
         pt.push(1);
         pt.push(2);
@@ -115,8 +117,7 @@ public:
 
     bool test_linked_list() {
         auto* list = new LinkedList();
-
-        cout << endl << endl << endl << "Start of linked list functions" << endl;
+        cout << "\n\n\nStart of linked list functions\n";
         Node* newNode = new Node(5);
         list -> InsertNode(list, newNode);
         Node* newerNode = new Node(25);
@@ -124,17 +125,13 @@ public:
         Node* last = new Node(123);
         list -> InsertNode(list, last);
         list -> PrintList(list);
-        string val_found = (list -> FindValue(list, 123)) ? "true" : "false";
-        cout << "Length of linked list: " << list -> GetLength(list) << endl;
-        cout << "Value 123 found in list: " << val_found << endl;
-        cout << "Index of 25 in list: " << list -> GetIndex(list, 25) << endl;
-        cout << "Deleting last node" << endl;
-        list -> DeleteLast(list);
-        cout << "Length of linked list: " << list -> GetLength(list) << endl;
-        val_found = (list -> FindValue(list, 123)) ? "true" : "false";
-        list -> PrintList(list);
-        cout << "Value 123 found in list: " << val_found << endl;
+        assert(list->FindValue(list, 123));
+        assert(list->GetLength(list) == 3);
+        assert(list->GetIndex(list, 25));
 
+        list -> DeleteLast(list);
+        assert(list->GetLength(list) == 2);
+        ASSERT_FALSE(list->FindValue(list,123));
         return true;
     }
 
