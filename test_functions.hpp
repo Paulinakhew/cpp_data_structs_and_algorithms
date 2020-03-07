@@ -114,7 +114,28 @@ public:
     }
 
     bool test_linked_list() {
-        return false;
+        auto* list = new LinkedList();
+
+        cout << endl << endl << endl << "Start of linked list functions" << endl;
+        Node* newNode = new Node(5);
+        list -> InsertNode(list, newNode);
+        Node* newerNode = new Node(25);
+        list-> InsertNode(list, newerNode);
+        Node* last = new Node(123);
+        list -> InsertNode(list, last);
+        list -> PrintList(list);
+        string val_found = (list -> FindValue(list, 123)) ? "true" : "false";
+        cout << "Length of linked list: " << list -> GetLength(list) << endl;
+        cout << "Value 123 found in list: " << val_found << endl;
+        cout << "Index of 25 in list: " << list -> GetIndex(list, 25) << endl;
+        cout << "Deleting last node" << endl;
+        list -> DeleteLast(list);
+        cout << "Length of linked list: " << list -> GetLength(list) << endl;
+        val_found = (list -> FindValue(list, 123)) ? "true" : "false";
+        list -> PrintList(list);
+        cout << "Value 123 found in list: " << val_found << endl;
+
+        return true;
     }
 
     bool test_search_functions() {

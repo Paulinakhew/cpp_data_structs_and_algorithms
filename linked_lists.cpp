@@ -5,12 +5,12 @@
 #include "linked_lists.hpp"
 
 
-Node::Node() : data(0), next(NULL) {}
+Node::Node() : data(0), next(nullptr) {}
 
-Node::Node(int new_data) : data(new_data), next(NULL) {}
+Node::Node(int new_data) : data(new_data), next(nullptr) {}
 
 LinkedList::LinkedList() {
-    head = NULL;
+    head = nullptr;
 }
 
 LinkedList::~LinkedList() {
@@ -19,21 +19,20 @@ LinkedList::~LinkedList() {
 
 void LinkedList::InsertNode(LinkedList* list, struct Node* newNode) {
     // If the list is empty, create a new head node
-    if (list->head == NULL){
+    newNode -> next = nullptr;
+    if (list->head == nullptr){
         list -> head = newNode;
-        newNode -> next = NULL;
     }
         // If the list is not empty, start at the head
         // and follow the links until you find the end of the list
     else {
-        Node * end = list -> head;
-        while (end -> next != NULL) {
-            end = end -> next;
+        Node * temp = list -> head;
+        while (temp -> next != nullptr) {
+            temp = temp -> next;
         }
 
         // Then, set the end of the list to point to the new node
-        end -> next = newNode;
-        newNode -> next = NULL;
+        temp -> next = newNode;
     }
 }
 
@@ -45,13 +44,13 @@ void LinkedList::PrintList(LinkedList* list) {
     while (node != nullptr) {
         cout << "[" << node -> data << "]";
         node = node -> next;
-        if (node != NULL)
+        if (node != nullptr)
             cout << "->";
     }
     cout << ")\n";
 }
 
-bool LinkedList::FindValue (LinkedList* list, int value) {
+bool LinkedList::FindValue(LinkedList* list, int value) {
     if (list == nullptr)
         return false;
     Node* node = list -> head;
@@ -63,12 +62,12 @@ bool LinkedList::FindValue (LinkedList* list, int value) {
     return false;
 }
 
-int LinkedList::GetIndex (LinkedList* list, int value) {
+int LinkedList::GetIndex(LinkedList* list, int value) {
     if (list == nullptr)
         return -1;
     Node* node = list -> head;
     int index = 0;
-    while (node!= NULL) {
+    while (node!= nullptr) {
         if (node -> data == value)
             return index;
         index++;
@@ -78,25 +77,25 @@ int LinkedList::GetIndex (LinkedList* list, int value) {
 }
 
 void LinkedList::DeleteLast(LinkedList* list) {
-    if (list == NULL)
+    if (list == nullptr)
         return;
 
     // Check to make sure that there are at least two elements in the list
-    if (list -> head != NULL && list -> head -> next != NULL) {
+    if (list -> head != nullptr && list -> head -> next != nullptr) {
         // When this loop finishes, newLast will point to the node
         // that will be second-last in the list.
         Node* newLast = list -> head;
-        while (newLast -> next -> next != NULL) {
+        while (newLast -> next -> next != nullptr) {
             newLast = newLast -> next;
         }
         delete newLast -> next;
-        newLast -> next = NULL;
+        newLast -> next = nullptr;
 
         // If there is only 1 Node in the list, we just have to delete that node,
         // and set head to NULL
-    } else if (list -> head != NULL) {
+    } else if (list -> head != nullptr) {
         delete list -> head;
-        list -> head = NULL;
+        list -> head = nullptr;
     }
 
     // The only remaining case is that the list was empty
