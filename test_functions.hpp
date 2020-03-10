@@ -78,7 +78,7 @@ public:
 
     bool test_stack_implementation() {
         cout << "Start of stack implementation" << endl;
-        stack pt(3);
+        stack pt(5);
         pt.push(1);
         pt.push(2);
         pt.pop();
@@ -103,8 +103,11 @@ public:
         assert(pt.peek() == 1);
         pt.pop();
         assert(pt.isEmpty());
-
         return true;
+    }
+
+    bool test_queue_implementation() {
+        return false;
     }
 
     bool test_sort_algorithms() {
