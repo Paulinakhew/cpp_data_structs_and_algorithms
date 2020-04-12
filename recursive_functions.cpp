@@ -4,6 +4,14 @@
 
 #include "recursive_functions.hpp"
 
+void print_vector(vector<int> numbers, int index){
+    if (index == numbers.size())
+        cout << endl;
+    else {
+        cout << numbers[index] << " ";
+        print_vector(numbers, ++index);
+    }
+}
 
 void print_reverse_int(int my_number) {
     int last_idx = to_string(my_number).length() - 1;

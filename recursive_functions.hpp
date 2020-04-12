@@ -11,6 +11,7 @@
 
 using namespace std;
 
+void print_vector(vector<int> numbers, int index);
 void print_reverse_int(int my_number);
 void print_individual_digits(int n);
 int compute_sum_of_series(int n);

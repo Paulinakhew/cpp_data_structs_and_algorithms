@@ -8,127 +8,127 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/cmake-build-debug"/>
+				<Option working_dir="/Users/paulinakhew/Desktop/github_repos/cpp_data_structs_and_algorithms/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/paulinakhew/Desktop/github_repos/cpp_data_structs_and_algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/paulinakhew/Desktop/github_repos/cpp_data_structs_and_algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/paulinakhew/Desktop/github_repos/cpp_data_structs_and_algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/paulinakhew/Desktop/github_repos/cpp_data_structs_and_algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/cmake-build-debug"/>
+				<Option working_dir="/Users/paulinakhew/Desktop/github_repos/cpp_data_structs_and_algorithms/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/paulinakhew/Desktop/github_repos/cpp_data_structs_and_algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/paulinakhew/Desktop/github_repos/cpp_data_structs_and_algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/paulinakhew/Desktop/github_repos/cpp_data_structs_and_algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/paulinakhew/Desktop/github_repos/cpp_data_structs_and_algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/cmake-build-debug"/>
+				<Option working_dir="/Users/paulinakhew/Desktop/github_repos/cpp_data_structs_and_algorithms/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/paulinakhew/Desktop/github_repos/cpp_data_structs_and_algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/paulinakhew/Desktop/github_repos/cpp_data_structs_and_algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/paulinakhew/Desktop/github_repos/cpp_data_structs_and_algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/paulinakhew/Desktop/github_repos/cpp_data_structs_and_algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="cpp_linked_lists">
-				<Option output="/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/cmake-build-debug/cpp_linked_lists" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/cmake-build-debug"/>
+				<Option output="/Users/paulinakhew/Desktop/github_repos/cpp_data_structs_and_algorithms/cmake-build-debug/cpp_linked_lists" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/paulinakhew/Desktop/github_repos/cpp_data_structs_and_algorithms/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 cpp_linked_lists"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/paulinakhew/Desktop/github_repos/cpp_data_structs_and_algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 cpp_linked_lists"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/paulinakhew/Desktop/github_repos/cpp_data_structs_and_algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/paulinakhew/Desktop/github_repos/cpp_data_structs_and_algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/paulinakhew/Desktop/github_repos/cpp_data_structs_and_algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="cpp_linked_lists/fast">
-				<Option output="/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/cmake-build-debug/cpp_linked_lists" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/cmake-build-debug"/>
+				<Option output="/Users/paulinakhew/Desktop/github_repos/cpp_data_structs_and_algorithms/cmake-build-debug/cpp_linked_lists" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/paulinakhew/Desktop/github_repos/cpp_data_structs_and_algorithms/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 cpp_linked_lists/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/paulinakhew/Desktop/github_repos/cpp_data_structs_and_algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 cpp_linked_lists/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/paulinakhew/Desktop/github_repos/cpp_data_structs_and_algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/paulinakhew/Desktop/github_repos/cpp_data_structs_and_algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/paulinakhew/Desktop/github_repos/cpp_data_structs_and_algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/binary_search.cpp">
+		<Unit filename="/Users/paulinakhew/Desktop/github_repos/cpp_data_structs_and_algorithms/binary_search.cpp">
 			<Option target="cpp_linked_lists"/>
 		</Unit>
-		<Unit filename="/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/binary_search.hpp">
+		<Unit filename="/Users/paulinakhew/Desktop/github_repos/cpp_data_structs_and_algorithms/binary_search.hpp">
 			<Option target="cpp_linked_lists"/>
 		</Unit>
-		<Unit filename="/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/linked_lists.cpp">
+		<Unit filename="/Users/paulinakhew/Desktop/github_repos/cpp_data_structs_and_algorithms/linked_lists.cpp">
 			<Option target="cpp_linked_lists"/>
 		</Unit>
-		<Unit filename="/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/linked_lists.hpp">
+		<Unit filename="/Users/paulinakhew/Desktop/github_repos/cpp_data_structs_and_algorithms/linked_lists.hpp">
 			<Option target="cpp_linked_lists"/>
 		</Unit>
-		<Unit filename="/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/main.cpp">
+		<Unit filename="/Users/paulinakhew/Desktop/github_repos/cpp_data_structs_and_algorithms/main.cpp">
 			<Option target="cpp_linked_lists"/>
 		</Unit>
-		<Unit filename="/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/print_execution_time.cpp">
+		<Unit filename="/Users/paulinakhew/Desktop/github_repos/cpp_data_structs_and_algorithms/print_execution_time.cpp">
 			<Option target="cpp_linked_lists"/>
 		</Unit>
-		<Unit filename="/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/print_execution_time.hpp">
+		<Unit filename="/Users/paulinakhew/Desktop/github_repos/cpp_data_structs_and_algorithms/print_execution_time.hpp">
 			<Option target="cpp_linked_lists"/>
 		</Unit>
-		<Unit filename="/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/recursive_functions.cpp">
+		<Unit filename="/Users/paulinakhew/Desktop/github_repos/cpp_data_structs_and_algorithms/recursive_functions.cpp">
 			<Option target="cpp_linked_lists"/>
 		</Unit>
-		<Unit filename="/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/recursive_functions.hpp">
+		<Unit filename="/Users/paulinakhew/Desktop/github_repos/cpp_data_structs_and_algorithms/recursive_functions.hpp">
 			<Option target="cpp_linked_lists"/>
 		</Unit>
-		<Unit filename="/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/selection_sort.cpp">
+		<Unit filename="/Users/paulinakhew/Desktop/github_repos/cpp_data_structs_and_algorithms/selection_sort.cpp">
 			<Option target="cpp_linked_lists"/>
 		</Unit>
-		<Unit filename="/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/selection_sort.hpp">
+		<Unit filename="/Users/paulinakhew/Desktop/github_repos/cpp_data_structs_and_algorithms/selection_sort.hpp">
 			<Option target="cpp_linked_lists"/>
 		</Unit>
-		<Unit filename="/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/sequential_search.cpp">
+		<Unit filename="/Users/paulinakhew/Desktop/github_repos/cpp_data_structs_and_algorithms/sequential_search.cpp">
 			<Option target="cpp_linked_lists"/>
 		</Unit>
-		<Unit filename="/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/sequential_search.hpp">
+		<Unit filename="/Users/paulinakhew/Desktop/github_repos/cpp_data_structs_and_algorithms/sequential_search.hpp">
 			<Option target="cpp_linked_lists"/>
 		</Unit>
-		<Unit filename="/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/stack.cpp">
+		<Unit filename="/Users/paulinakhew/Desktop/github_repos/cpp_data_structs_and_algorithms/stack.cpp">
 			<Option target="cpp_linked_lists"/>
 		</Unit>
-		<Unit filename="/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/stack.hpp">
+		<Unit filename="/Users/paulinakhew/Desktop/github_repos/cpp_data_structs_and_algorithms/stack.hpp">
 			<Option target="cpp_linked_lists"/>
 		</Unit>
-		<Unit filename="/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/test_functions.hpp">
+		<Unit filename="/Users/paulinakhew/Desktop/github_repos/cpp_data_structs_and_algorithms/test_functions.hpp">
 			<Option target="cpp_linked_lists"/>
 		</Unit>
-		<Unit filename="/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/CMakeLists.txt">
+		<Unit filename="/Users/paulinakhew/Desktop/github_repos/cpp_data_structs_and_algorithms/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

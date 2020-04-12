@@ -6,31 +6,31 @@
 
 #IncludeRegexTransform: 
 
-/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/binary_search.hpp
+/Users/paulinakhew/Desktop/github_repos/cpp_data_structs_and_algorithms/binary_search.hpp
 vector
 -
 
-/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/linked_lists.hpp
+/Users/paulinakhew/Desktop/github_repos/cpp_data_structs_and_algorithms/linked_lists.hpp
 iostream
 -
 
-/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/main.cpp
+/Users/paulinakhew/Desktop/github_repos/cpp_data_structs_and_algorithms/main.cpp
 linked_lists.hpp
-/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/linked_lists.hpp
+/Users/paulinakhew/Desktop/github_repos/cpp_data_structs_and_algorithms/linked_lists.hpp
 test_functions.hpp
-/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/test_functions.hpp
+/Users/paulinakhew/Desktop/github_repos/cpp_data_structs_and_algorithms/test_functions.hpp
 array
 -
 chrono
 -
 
-/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/print_execution_time.hpp
+/Users/paulinakhew/Desktop/github_repos/cpp_data_structs_and_algorithms/print_execution_time.hpp
 chrono
 -
 iostream
 -
 
-/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/recursive_functions.hpp
+/Users/paulinakhew/Desktop/github_repos/cpp_data_structs_and_algorithms/recursive_functions.hpp
 iostream
 -
 string
@@ -40,39 +40,35 @@ cmath
 vector
 -
 
-/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/selection_sort.hpp
+/Users/paulinakhew/Desktop/github_repos/cpp_data_structs_and_algorithms/selection_sort.hpp
 vector
 -
 
-/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/sequential_search.hpp
+/Users/paulinakhew/Desktop/github_repos/cpp_data_structs_and_algorithms/sequential_search.hpp
 vector
 -
 
-/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/stack.cpp
-stack.hpp
-/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/stack.hpp
-
-/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/stack.hpp
+/Users/paulinakhew/Desktop/github_repos/cpp_data_structs_and_algorithms/stack.hpp
 iostream
 -
 cstdlib
 -
 
-/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/test_functions.hpp
+/Users/paulinakhew/Desktop/github_repos/cpp_data_structs_and_algorithms/test_functions.hpp
 linked_lists.hpp
-/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/linked_lists.hpp
+/Users/paulinakhew/Desktop/github_repos/cpp_data_structs_and_algorithms/linked_lists.hpp
 recursive_functions.hpp
-/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/recursive_functions.hpp
+/Users/paulinakhew/Desktop/github_repos/cpp_data_structs_and_algorithms/recursive_functions.hpp
 binary_search.hpp
-/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/binary_search.hpp
+/Users/paulinakhew/Desktop/github_repos/cpp_data_structs_and_algorithms/binary_search.hpp
 sequential_search.hpp
-/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/sequential_search.hpp
+/Users/paulinakhew/Desktop/github_repos/cpp_data_structs_and_algorithms/sequential_search.hpp
 stack.hpp
-/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/stack.hpp
+/Users/paulinakhew/Desktop/github_repos/cpp_data_structs_and_algorithms/stack.hpp
 selection_sort.hpp
-/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/selection_sort.hpp
+/Users/paulinakhew/Desktop/github_repos/cpp_data_structs_and_algorithms/selection_sort.hpp
 print_execution_time.hpp
-/Users/paulinakhew/Desktop/cpp_data_structs_and_algorithms/print_execution_time.hpp
+/Users/paulinakhew/Desktop/github_repos/cpp_data_structs_and_algorithms/print_execution_time.hpp
 vector
 -
 
