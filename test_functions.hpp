@@ -30,8 +30,15 @@ public:
     bool test_recursive_functions() {
         cout << "Start of recursive functions" << endl;
         vector<int> numbers = {4, 9, 28, 46, 1, 7, 232, 801};
+
         cout << "Printing array {4, 9, 28, 46, 1, 7, 232, 801}: ";
         print_vector(numbers, 0);
+
+        string my_str = "TeStInG";
+        cout << "Converting mixed string of 'TeStInG' to lower case: ";
+        to_lower_string(my_str, 0);
+        cout << my_str << endl;
+
         cout << "Printing 12345 in reverse: ";
         print_reverse_int(12345);
         cout << endl;

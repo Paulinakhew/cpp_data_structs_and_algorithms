@@ -4,12 +4,22 @@
 
 #include "recursive_functions.hpp"
 
-void print_vector(vector<int> numbers, int index){
+void print_vector(vector<int> numbers, int index) {
     if (index == numbers.size())
         cout << endl;
     else {
         cout << numbers[index] << " ";
         print_vector(numbers, ++index);
+    }
+}
+
+void to_lower_string(string& my_string, int index) {
+    if (index == my_string.size())
+        return;
+    else {
+        if (my_string[index] >= 'A' && my_string[index] <= 'Z')
+            my_string[index] = 'a' + (my_string[index] - 'A');
+        to_lower_string(my_string, ++index);
     }
 }
 
