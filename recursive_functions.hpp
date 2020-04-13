@@ -13,6 +13,7 @@ using namespace std;
 
 void print_vector(vector<int> numbers, int index);
 void to_lower_string(string& my_string, int index);
+void print_hex_from_dec(int n);
 void print_reverse_int(int my_number);
 void print_individual_digits(int n);
 int compute_sum_of_series(int n);

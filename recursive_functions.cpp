@@ -23,6 +23,27 @@ void to_lower_string(string& my_string, int index) {
     }
 }
 
+void print_hex_from_dec(int n) {
+    if (0 <= n && n <= 9) cout << n;
+    else if (n == 10) cout << "A";
+    else if (n == 11) cout << "B";
+    else if (n == 12) cout << "C";
+    else if (n == 13) cout << "D";
+    else if (n == 14) cout << "E";
+    else if (n == 15) cout << "F";
+    else if (n > 15) {
+        print_hex_from_dec(n / 16);
+        int curr_digit = n % 16;
+        if (0 <= curr_digit && curr_digit <= 9) cout << curr_digit;
+        else if (curr_digit == 10) cout << "A";
+        else if (curr_digit == 11) cout << "B";
+        else if (curr_digit == 12) cout << "C";
+        else if (curr_digit == 13) cout << "D";
+        else if (curr_digit == 14) cout << "E";
+        else if (curr_digit == 15) cout << "F";
+    }
+}
+
 void print_reverse_int(int my_number) {
     int last_idx = to_string(my_number).length() - 1;
     if (my_number) {

@@ -34,6 +34,10 @@ public:
         cout << "Printing array {4, 9, 28, 46, 1, 7, 232, 801}: ";
         print_vector(numbers, 0);
 
+        cout << "Printing the hexadecimal representation of 683: ";
+        print_hex_from_dec(683);
+        cout << endl;
+
         string my_str = "TeStInG";
         cout << "Converting mixed string of 'TeStInG' to lower case: ";
         to_lower_string(my_str, 0);
@@ -131,10 +135,8 @@ public:
     bool test_linked_list() {
         auto* list = new LinkedList();
         cout << "\n\n\nStart of linked list functions\n";
-        Node* newNode = new Node(5);
-        list -> InsertNode(list, newNode);
-        Node* newerNode = new Node(25);
-        list-> InsertNode(list, newerNode);
+        list -> InsertNode(list, new Node(5));
+        list-> InsertNode(list, new Node(25));
         Node* last = new Node(123);
         list -> InsertNode(list, last);
         list -> PrintList(list);
