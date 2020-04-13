@@ -11,6 +11,7 @@
 
 using namespace std;
 
+void tower_of_hanoi(int n, string starting, string destination, string interim);
 int sum_of_squares_bottom_up(int a, int b);
 int sum_of_squares_top_down(int a, int b);
 void print_vector(vector<int> numbers, int index);

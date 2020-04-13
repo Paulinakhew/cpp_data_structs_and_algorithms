@@ -4,6 +4,16 @@
 
 #include "recursive_functions.hpp"
 
+void tower_of_hanoi(int n, string starting, string destination, string interim) {
+    if (n == 1)
+        cout << "Move disk " << n << " from peg " << starting << " to peg " << destination << endl;
+    else {
+        tower_of_hanoi(n - 1, starting, interim, destination);
+        cout << "Move disk " << n << " from peg " << starting << " to peg " << destination << endl;
+        tower_of_hanoi(n - 1, interim, destination, starting);
+    }
+}
+
 int sum_of_squares_bottom_up(int a, int b) {
     if (a == b)
         return a * a;

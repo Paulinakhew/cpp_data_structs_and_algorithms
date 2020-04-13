@@ -30,7 +30,11 @@ public:
     bool test_recursive_functions() {
         cout << "Start of recursive functions" << endl;
 
-        cout << "Sum of squares between 2 and 8 bottom up: ";
+        cout << "Solving Towers of Hanoi problem" << endl;
+        string a = "A", b = "B", c = "C";
+        tower_of_hanoi(3, a, c, b);
+
+        cout << "\nSum of squares between 2 and 8 bottom up: ";
         cout << sum_of_squares_bottom_up(2, 8) << endl;
 
         cout << "Sum of squares between 2 and 8 top down: ";
