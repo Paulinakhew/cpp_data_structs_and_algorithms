@@ -29,8 +29,14 @@ class TestDataStructsandAlgorithms {
 public:
     bool test_recursive_functions() {
         cout << "Start of recursive functions" << endl;
-        vector<int> numbers = {4, 9, 28, 46, 1, 7, 232, 801};
 
+        cout << "Sum of squares between 2 and 8 bottom up: ";
+        cout << sum_of_squares_bottom_up(2, 8) << endl;
+
+        cout << "Sum of squares between 2 and 8 top down: ";
+        cout << sum_of_squares_top_down(2, 8) << endl;
+
+        vector<int> numbers = {4, 9, 28, 46, 1, 7, 232, 801};
         cout << "Printing array {4, 9, 28, 46, 1, 7, 232, 801}: ";
         print_vector(numbers, 0);
 

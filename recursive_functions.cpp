@@ -4,6 +4,20 @@
 
 #include "recursive_functions.hpp"
 
+int sum_of_squares_bottom_up(int a, int b) {
+    if (a == b)
+        return a * a;
+    else
+        return (a * a) + sum_of_squares_bottom_up(a + 1, b);
+}
+
+int sum_of_squares_top_down(int a, int b) {
+    if (a == b)
+        return b * b;
+    else
+        return sum_of_squares_top_down(a, b - 1) + (b * b);
+}
+
 void print_vector(vector<int> numbers, int index) {
     if (index == numbers.size())
         cout << endl;

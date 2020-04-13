@@ -11,6 +11,8 @@
 
 using namespace std;
 
+int sum_of_squares_bottom_up(int a, int b);
+int sum_of_squares_top_down(int a, int b);
 void print_vector(vector<int> numbers, int index);
 void to_lower_string(string& my_string, int index);
 void print_hex_from_dec(int n);
